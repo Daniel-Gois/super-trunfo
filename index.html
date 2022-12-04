@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <div><img class="jurassic" src="https://www.imagemhost.com.br/images/2022/03/19/pngwing.com.png" alt="">
+      <div>
+        <h1>Seja bem vindo ao Mundo perdido de Jurassic Park. </h1>
+        <p>Para sair daqui você precisa vencer nosso duelo de cartas, clique em sortear e escolha um atributo. <br>Boa sorte e lembre-se: <span>"
+Don't give up easily".</span>
+        <p><br>
+          <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+          <br><br>
+
+        <form id="form">
+          <div class="grid">
+          <div id="carta-jogador"><img src="https://www.imagemhost.com.br/images/2022/03/19/card-7.png" alt=""> </div>
+            <div class="opcoes" id="opcoes"></div>
+            <div> <button type="button" id="btnJogar" class="botao" onclick="jogar()" disabled="true">Jogar</button> <br>
+              <div id="resultado"></div><br>
+              <button id="link" disabled="true"><a href="./">Jogar Novamente</a></button>
+            </div>
+            <div id="carta-maquina" class="none"> </div>
+          </div>
+
+
+
+        </form>
+  </main>
+  <script src="./js/home.js"></script>
+</body>
+
+</html>
